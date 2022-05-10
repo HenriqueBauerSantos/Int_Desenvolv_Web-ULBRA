@@ -9,24 +9,47 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <header class="container-fluid row bg-secondary p-2">
-        <h1 class="col-8">Henrique Bauer Santos</h1>
-        <menu class="col-4 text-end p-2">
-            <a class="text-decoration-none fs-3 me-2 text-dark" href="#">Sobre</a>
-            <a class="text-decoration-none fs-3 me-2 text-dark" href="#">Contatos</a>
-            <a class="text-decoration-none fs-3 me-2 text-dark" href="#">Trabalhos</a>
+    <header class="container-fluid row bg-secondary p-3 text-light">
+        <h1 class="col-8 mt-1">Henrique Bauer Santos</h1>
+        <menu class="col-4 text-end mt-2">
+            <a class="text-decoration-none fs-3 me-2 text-light" href="#quem">Sobre</a>
+            <a class="text-decoration-none fs-3 me-2 text-light" href="#encontrar">Contatos</a>
+            <a class="text-decoration-none fs-3 me-2 text-light" href="#trab">Trabalhos</a>
         </menu>
     </header>
     <section class="container-fluid text-center">
-        <article class="bg-info p-2">
+        <article class="bg-info p-5" id="quem">
             <h1>Quem sou eu?</h1>
             <img class="rounded-circle col-6 center-block" style="max-height: 200px; max-width: 200px;" src="assets/img/WhatsApp Image 2022-04-10 at 11.36.41.jpeg" alt="">
-            <p>Sou Henrique Santos, piloto comercial e instrutor de voo.</p>
+            <h2>Sou Henrique Santos, piloto comercial e instrutor de voo.</h2>
         </article>
-        <article>
-            <h1>Como me encontrar</h1>
-            <p></p>
+        <article class="p-5 bg-secondary text-light" id="encontrar">
+            <h1>Como me encontrar?</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda perspiciatis nam ad sint asperiores natus iste laborum enim, veritatis ab dicta minus laboriosam minima, accusantium magnam, nesciunt sunt odio? Odit impedit laudantium iure expedita veritatis maiores perferendis explicabo quisquam sit, eaque cupiditate ipsam modi excepturi magni, vel nulla voluptates provident eveniet quia! Sed magni ratione, quo aperiam adipisci facere numquam inventore quaerat id pariatur. Neque dolore explicabo voluptatum ipsam aliquid illum earum corporis libero!</p>
+            <a target="blank" href="https://www.linkedin.com/in/henrique-bauer-santos-24b2b8194">
+                <img class="bg-light" style="max-width: 60px;" src="assets/img/linkDin.png" alt="">
+            </a>
+        </article>
+        <article class="p-5" id="trab">
+            <h1>Meus principais trabalhos</h1>
+            <div class="row p-4">
+                <div class="col-4 p-2">
+                    <h3>Ajudante de eletricista</h3>
+                    <img class="mt-4 rounded" style="max-width: 250px;" src="Assets/img/Eletricista.jpg" alt="">
+                </div>
+                <div class="col-4 p-2">
+                    <h3>Piloto comercial / Instrutor de voo</h3>
+                    <img class="mt-4 rounded" style="max-width: 250px;" src="Assets/img/cabine.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <h3>Associação dos Bombeiros <br> Voluntários de Arroio do Sal</h3>
+                    <img class="rounded" style="max-width: 250px;" src="Assets/img/ABVAS.jpg" alt="">
+                </div>
+            </div>
         </article>
     </section>
+    <footer class="bg-secondary text-center">
+        <h6 class="p-4">Henrique Bauer Santos</h6>
+    </footer>
 </body>
 </html>
