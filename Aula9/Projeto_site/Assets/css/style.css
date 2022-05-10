@@ -1,0 +1,72 @@
+header{
+    background-color: #666;
+    color: aliceblue;
+    text-align: center;
+    padding: 40px;
+}
+section{
+    display: flex;
+}
+nav{
+    width: 20%;
+    padding: 20px;
+    line-height: 2;
+    font-size: 120%;
+}
+ul li{
+    list-style: none;
+}
+#torres{
+    margin-left: 20px;
+    font-size: 140%;
+}
+#arroio{
+    margin-left: 20px;
+    font-size: 140%;
+}
+#curu{
+    margin-left: 20px;
+    font-size: 140%;
+}
+#capao{
+    margin-left: 20px;
+    font-size: 140%;
+}
+#xan{
+    margin-left: 20px;
+    font-size: 140%;
+}
+#atlan{
+    margin-left: 20px;
+    font-size: 140%;
+}
+a{
+    text-decoration: none;
+    color: rgb(10, 60, 60);
+    font-size: 130%;
+}
+p{
+    text-indent: 10%;
+    text-align: justify;
+}
+article{
+    width: 70%;
+    background-color: rgb(197, 197, 197);
+    padding: 30px;
+}
+aside{
+    width: 10%;
+    padding: 10px;
+    text-align: justify;
+}
+.propText{
+    font-size: 80%;
+}
+footer{
+    background-color: rgb(102, 102, 102);
+    padding: 20px;
+}
+.roda{
+    text-align: center;
+    font-size: 130%;
+}

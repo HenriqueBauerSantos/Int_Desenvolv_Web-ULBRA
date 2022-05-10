@@ -1,0 +1,12 @@
+body{text-align: left;margin:0 auto }
+h1{text-align: center;background-color: rgb(100, 100, 105); color: rgb(7, 7, 4);}
+#idfront20 {max-height:350px; max-width: 250px; ;}
+ul,ol {list-style-position:inside}
+#idfront21 {max-height:40px}
+/*elementos estruturais*/
+.linha{clear: both;}
+.tudo{border: solid 1px rgb(0, 0, 0);width: 60%;margin:0 auto;}
+.esquerda1{width: 30%; float: left;background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);}
+.direita1{width: 60%;float: right;background-color: rgb(255, 255, 255);color: black;}
+.direita2{width: 50%;float: right;background-color: rgb(255, 255, 255);color: black;}
+.esquerda2{width: 30%; float: left;background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);}

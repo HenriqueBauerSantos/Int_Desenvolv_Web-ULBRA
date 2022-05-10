@@ -1,0 +1,109 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lavender;
+    color: rgb(77, 76, 76);
+}
+#nome{
+    padding: 10px;
+}
+menu{
+    padding: 20px;
+    color: rgb(77, 76, 76);
+}
+menu a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 110%;
+    color: black;
+}
+section{
+    text-align: center;
+}
+#sobre{
+    padding: 10px;
+    background-color: rgb(48, 158, 177);
+}
+.quem{
+    font-size: 140%;
+}
+img{
+    border-radius: 50%;
+    height: 200px;
+}
+#meuText{
+    font-size: 120%;
+}
+#contato{
+    background-color: dimgray;
+    padding: 20px;
+    padding-inline-end: 20px;
+}
+.dropbtn{
+    background-color: rgb(184, 172, 172);
+    color: aliceblue;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30%;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+#foto{
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(174, 233, 244);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: rgb(199, 205, 206);
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color: rgb(58, 56, 59);
+}
+.logos{
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+}
+#trabalhos{
+    padding: 15px;
+}
+.trabs{
+    display: flex;
+    flex-direction: inherit;
+    justify-content: space-evenly;
+}
+.imgTrab{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+.ajus{
+    padding: 13px;
+}
+footer{
+    background-color: rgb(94, 91, 91);
+    padding: 5px;
+    text-align: center;
+}
